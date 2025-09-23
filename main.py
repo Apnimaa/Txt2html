@@ -19,15 +19,15 @@ bot = Client(
 
 #======≠===============================================================
 keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton(text="🛠️ Help", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/Txt-html")],
+        [InlineKeyboardButton(text="Join free Study channel", url=f"https://t.me/+iC8aN7xe-cszMTBl")],
 ])
 #======≠===============================================================
 image_urls = [
-    "https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
-    "https://tinypic.host/images/2025/07/14/Logo-1.jpg",
-    "https://envs.sh/GVI.jpg",
-    "https://envs.sh/GVW.jpg",
-    "https://envs.sh/GV0.jpg",
+    "https://envs.sh/L6B.jpg",
+    "https://envs.sh/ig4.jpg",
+    "https://envs.sh/ig1.jpg",
+    "https://envs.sh/igR.jpg",
+    "https://envs.sh/ijI.jpg",
     # Add more image URLs as needed
 ]
 
@@ -39,8 +39,8 @@ async def start_command(bot: Client, message: Message):
     caption = (
         f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n"
         f"➠ 𝐈 𝐚𝐦 .𝐭𝐱𝐭 𝐭𝐨 .𝐡𝐭𝐦𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 𝐁𝐨𝐭\n\n"
-        f"➠ Send One or More .txt files!\n\n"
-        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 🦁"
+        f"➠🌐 ᴊᴏɪɴ ꜰᴏʀ ʙᴀᴄᴋᴜᴘ  : <a href='https://t.me/+KPzLu1rDwBwzYjNl'>『ɈØƗN NØW』</a>✳️ !\n\n"
+        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : <a href='https://t.me/+iCxYyg7W284wNDRl'>『SŦɌȺNǤɆ』</a> 🦁 \n\n"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -62,7 +62,7 @@ async def id_command(client, message: Message):
 
 @bot.on_message(filters.private & filters.command(["info"]))
 async def info(bot: Client, update: Message):
-    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}")]])
+    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/+iCxYyg7W284wNDRl")]])
     text = (
         f"╭────────────────╮\n"
         f"│✨ **Your Telegram Info**✨ \n"
