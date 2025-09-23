@@ -257,7 +257,7 @@ def generate_html(file_name, videos, pdfs, others):
 <body>
     <div class="header">
         {file_name_without_extension}
-        <div class="subheading">📥 <b>Extracted By : {CREDIT}</b></div>
+        <div class="subheading">✳️ <b>Join Free Course Channel : <a href='https://t.me/+KPzLu1rDwBwzYjNl'><b>『J̸O̸I̸N̸ C̸H̸A̸N̸N̸E̸L̸』<b/></a></b></div>
     </div>
 
     <div id="video-player">
@@ -309,7 +309,7 @@ def generate_html(file_name, videos, pdfs, others):
         </div>
     </div>
 
-    <div class="footer"><b>Extracted By : {CREDIT}</b></div>
+    <div class="footer"><b>Extracted By : <a href='https://t.me/+iCxYyg7W284wNDRl'>『SŦɌȺNǤɆ』<b/></a></b></div>
 
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script>
