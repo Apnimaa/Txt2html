@@ -24,10 +24,10 @@ keyboard = InlineKeyboardMarkup([
 #======≠===============================================================
 image_urls = [
     "https://envs.sh/L6B.jpg",
-    "https://envs.sh/ig4.jpg",
     "https://envs.sh/ig1.jpg",
+    "https://envs.sh/ig4.jpg",
     "https://envs.sh/igR.jpg",
-    "https://envs.sh/ijI.jpg",
+    "https://envs.sh/ej4.jpg",
     # Add more image URLs as needed
 ]
 
@@ -104,7 +104,7 @@ async def handle_file(client: Client, message: Message):
     with open(html_file_path, "w") as f:
         f.write(html_content)
 
-    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n🌟**Extracted By : {CREDIT}** \n\n **࿇ ══━━━• 『SŦɌȺNǤɆ』 •━━━══ ࿇**")
+    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n **࿇ ══━━━• <a href='https://t.me/+iCxYyg7W284wNDRl'>『SŦɌȺNǤɆ』</a> 🦁 •━━━══ ࿇**")
     
     os.remove(file_path)
     os.remove(html_file_path)
